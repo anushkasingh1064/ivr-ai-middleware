@@ -1,0 +1,48 @@
+# IVR-to-AI Middleware Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Data Validation
+pydantic==2.5.0
+
+# HTTP Client (for AI service calls)
+httpx==0.25.1
+
+# File Upload Support
+python-multipart==0.0.6
+
+# Twilio Integration
+twilio==8.10.0
+
+# Environment Variables Management
+python-dotenv==1.0.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Production Server (for Azure deployment)
+gunicorn==21.2.0
+
+# Optional: Production Additions
+# Uncomment when deploying to production
+
+# Database Support
+# psycopg2-binary==2.9.9  # PostgreSQL
+# pymongo==4.6.0          # MongoDB
+# redis==5.0.1            # Redis for sessions
+
+# Security
+# python-jose[cryptography]==3.3.0  # JWT tokens
+# passlib[bcrypt]==1.7.4            # Password hashing
+
+# Monitoring
+# prometheus-client==0.19.0
+# python-json-logger==2.0.7
+
+# Azure Integration
+# azure-identity==1.15.0
+# azure-keyvault-secrets==4.7.0
